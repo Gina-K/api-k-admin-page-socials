@@ -1,19 +1,41 @@
 models:
-  Post:
-    hasMany: [Comment]
-    fake:
-      _count: 10
-      cover: { imageURL: [1920, 1080] }
-      title: { loremWords: [5, 20] }
-      body: { loremParagraphs: [10, 100] }
-      category: { oneOfString: [one, two, three] }
-      isDraft: { bool: 20 }
-      views: { int: [0, 1000] }
-      createdAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
-  Comment:
-    belongsTo: [Post]
-    fake:
-      _count: 25
-      email: email
-      body: { loremParagraphs: [10, 100] }
-      createdAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
+  Social:
+    data: [ {
+      id: "1",
+      socialName: "Instagram",
+      accountName: "patrickstart01",
+      connectionDate: "14.12.2022",
+      accountUrl: "https://www.instagram.com/patrickstart01/",
+      modified: "24 May 2023",
+      displayName: "patrickstart01 on Instagr",
+      notes: "sdsdff"
+    },
+      {
+        id: "4",
+        socialName: "Dribble",
+        accountName: "TheMeatball",
+        connectionDate: "10.10.2022",
+        accountUrl: "https://dribbble.com/themeatball",
+        modified: "24 May 2023",
+        displayName: "TheMeatball on Dribbl",
+        notes: "The main network"
+      } ]
+  Available:
+    data: [
+      {
+        id: "1",
+        name: "Instagram"
+      },
+      {
+        id: "2",
+        name: "YouTube"
+      },
+      {
+        id: "3",
+        name: "OnlyFans"
+      },
+      {
+        id: "4",
+        name: "Dribble"
+      }
+    ]
