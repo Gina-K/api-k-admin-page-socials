@@ -1,5 +1,9 @@
 models:
   Social:
+    fake:
+      _count: 0
+
+  Social:
     data: [ {
       id: "1",
       socialName: "Instagram",
