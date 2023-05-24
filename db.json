@@ -1,0 +1,42 @@
+{
+  "socials": [
+    {
+      "id": "1",
+      "socialName": "Instagram",
+      "accountName": "patrickstart01",
+      "connectionDate": "14.12.2022",
+      "accountUrl": "https://www.instagram.com/patrickstart01/",
+      "modified": "24 May 2023",
+      "displayName": "patrickstart01 on Instagr",
+      "notes": "sdsdff"
+    },
+    {
+      "id": "4",
+      "socialName": "Dribble",
+      "accountName": "TheMeatball",
+      "connectionDate": "10.10.2022",
+      "accountUrl": "https://dribbble.com/themeatball",
+      "modified": "24 May 2023",
+      "displayName": "TheMeatball on Dribbl",
+      "notes": "The main network"
+    }
+  ],
+  "available": [
+    {
+      "id": "1",
+      "name": "Instagram"
+    },
+    {
+      "id": "2",
+      "name": "YouTube"
+    },
+    {
+      "id": "3",
+      "name": "OnlyFans"
+    },
+    {
+      "id": "4",
+      "name": "Dribble"
+    }
+  ]
+}
